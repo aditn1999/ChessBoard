@@ -1,7 +1,7 @@
 const { Server } = require('socket.io');
 const { Chess } = require('chess.js');
 
-const frontend_URL = "http://localhost:5173";
+const frontend_URL = "https://frontend-avzc.onrender.com";
 let io;
 let rooms = {};
 let currentPlayer = "w";
