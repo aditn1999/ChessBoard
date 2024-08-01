@@ -11,7 +11,7 @@ const app = express();
 const server = createServer(app);
 initializeSocket(server);
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://frontend-avzc.onrender.com",
     methods: ['GET', 'POST'],
     credentials: true
   }));
