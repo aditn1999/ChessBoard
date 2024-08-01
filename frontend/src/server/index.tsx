@@ -1,4 +1,4 @@
-const backend_url = "http://localhost:8000"
+const backend_url = "https://chessboard-yybr.onrender.com"
 
  export const Serverapi ={
     Socket:{
